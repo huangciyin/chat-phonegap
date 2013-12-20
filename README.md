@@ -15,3 +15,13 @@ cordova plugin add org.apache.cordova.dialogs
 cordova plugin add org.apache.cordova.vibration
 cordova plugin add https://github.com/phonegap-build/PushPlugin.git
 cordova plugin add org.apache.cordova.statusbar
+
+export PATH=${PATH}:~/svn/sdk/platform-tools:~/svn/sdk/tools
+source ~/.bash_profile
+
+brew update
+brew install ant
+
+cordova platform add android
+
+cordova build
