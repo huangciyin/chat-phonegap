@@ -21,6 +21,8 @@ cordova plugin add https://github.com/phonegap-build/PushPlugin.git
 
 cordova plugin add org.apache.cordova.statusbar
 
+cordova plugin add https://github.com/VitaliiBlagodir/cordova-plugin-datepicker
+
 export PATH=${PATH}:~/svn/sdk/platform-tools:~/svn/sdk/tools
 
 source ~/.bash_profile
