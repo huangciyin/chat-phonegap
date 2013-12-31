@@ -37,7 +37,8 @@ To build the project:
 
 md platforms
 
-cordova platform add ios
+
+cordova platform remove android
 
 cordova platform add android
 
