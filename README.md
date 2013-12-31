@@ -35,6 +35,8 @@ brew install ant
 
 To build the project: 
 
+md platforms
+
 cordova platform add ios
 
 cordova platform add android
