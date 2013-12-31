@@ -5,11 +5,15 @@ SteedOS Apps for Business is a cloud-based productivity suite that helps you and
 
 This project is initialized from PhoneGap 3.3.0 with following commands:
 
+export PATH=${PATH}:~/svn/sdk/platform-tools:~/svn/sdk/tools
+
+source ~/.bash_profile
+
 sudo npm install -g cordova
 
-cordova create steedos-phonegap com.steedos.phonegap SteedOS-PhoneGap
+cordova create chat-phonegap com.steedos.chat Chat
 
-cd steedos-phonegap
+cd chat-phonegap
 
 cordova plugin add org.apache.cordova.inappbrowser
 
@@ -23,13 +27,13 @@ cordova plugin add org.apache.cordova.statusbar
 
 cordova plugin add https://github.com/VitaliiBlagodir/cordova-plugin-datepicker
 
-export PATH=${PATH}:~/svn/sdk/platform-tools:~/svn/sdk/tools
-
-source ~/.bash_profile
-
 brew update
 
 brew install ant
+
+=============
+
+To build the project: 
 
 cordova platform add ios
 
