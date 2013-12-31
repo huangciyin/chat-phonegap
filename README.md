@@ -33,13 +33,18 @@ brew install ant
 
 =============
 
-To build the project: 
+Build for android: 
+
+export PATH=${PATH}:~/svn/sdk/platform-tools:~/svn/sdk/tools
 
 md platforms
-
 
 cordova platform remove android
 
 cordova platform add android
 
-cordova build
+cordova build android --release
+
+mkdir dist 
+
+jarsigner -verbose -keystore ../steedos-certs/android/android.keystore -signedjar dist/SteedOS_Chat_1.3.apk platforms/android/bin/Chat-release-unsigned.apk android
