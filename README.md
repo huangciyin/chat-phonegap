@@ -47,4 +47,8 @@ cordova build android --release
 
 mkdir dist 
 
-jarsigner -verbose -keystore ../steedos-certs/android/android.keystore -signedjar dist/SteedOS_Chat_1.3.apk platforms/android/bin/Chat-release-unsigned.apk android
+# Sign
+jarsigner -verbose -keystore ../steedos-certs/android/android.keystore -signedjar platforms/android/bin/Chat_signed.apk platforms/android/bin/Chat-release-unsigned.apk android
+
+# Optimize
+zipalign -v 4 platforms/android/bin/Chat_signed.apk dist/SteedOS_Chat_1.0.apk
