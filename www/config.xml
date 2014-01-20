@@ -8,9 +8,9 @@
         HotLong Software
     </author>
     <!--
-    <content src="system/steedos/current/en-us/index.html?phonegap=1&amp;apps=chat#chat" />
-    -->
     <content src="http://192.168.0.187:4020/steedos/?phonegap=1" />
+    -->
+    <content src="system/steedos/current/en-us/index.html?phonegap=1&amp;apps=chat#chat" />
 
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
