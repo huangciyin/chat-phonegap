@@ -27,6 +27,10 @@ cordova plugin add org.apache.cordova.statusbar
 
 cordova plugin add https://github.com/VitaliiBlagodir/cordova-plugin-datepicker
 
+cordova plugin add org.apache.cordova.statusbar
+
+cordova plugin add org.apache.cordova.splashscreen
+
 brew update
 
 brew install ant
@@ -43,12 +47,17 @@ cordova platform remove android
 
 cordova platform add android
 
+open www/config.xml, change versionName
+
+open platforms/android/AndroidManifest.xml,open platforms/android/AndroidManifest.xml, change versionCode 
+
 cordova build android --release
 
 mkdir dist 
 
 # Sign
-jarsigner -verbose -keystore ../steedos-certs/android/android.keystore -signedjar platforms/android/bin/Chat_signed.apk platforms/android/bin/Chat-release-unsigned.apk android
+jarsigner -verbose -keystore ../steedos-certs/android/android.keystore -signedjar dist/SteedOS_Chat_signed.apk platforms/android/bin/Chat-release-unsigned.apk android
 
 # Optimize
-zipalign -v 4 platforms/android/bin/Chat_signed.apk dist/SteedOS_Chat_1.0.apk
+rm dist/SteedOS_Chat_1.1.0.apk
+zipalign -v 4 dist/SteedOS_Chat_signed.apk dist/SteedOS_Chat_1.1.0.apk

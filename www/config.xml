@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.steedos.chat" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.steedos.chat" version="1.1.0" versionCode="4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Chat</name>
     <description>
         Private group chat and IM, built for business and team collaboration. 
@@ -7,7 +7,10 @@
     <author email="zhuangjianguo@hotlong.com" href="http://chat.steedos.com">
         HotLong Software
     </author>
+    <!--
     <content src="system/steedos/current/en-us/index.html?phonegap=1&amp;apps=chat#chat" />
+    -->
+    <content src="http://192.168.0.187:4020/steedos/?phonegap=1" />
 
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
@@ -39,10 +42,13 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
 
+
     <!-- 初始化状态栏黑色 -->
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     
+    <preference name="loadUrlTimeoutValue" value="120000" />
+
     <access origin="*" />
 
 
