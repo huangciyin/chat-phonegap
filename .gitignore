@@ -1,2 +1,5 @@
-/platforms/
+/platforms/android/assets/
+/platforms/android/bin/
+/platforms/android/.staging/
+/platforms/android/platform_www/
 /dist/
