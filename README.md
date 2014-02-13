@@ -59,5 +59,5 @@ mkdir dist
 jarsigner -verbose -keystore ../steedos-certs/android/android.keystore -signedjar dist/SteedOS_Chat_signed.apk platforms/android/bin/Chat-release-unsigned.apk android
 
 # Optimize
-rm dist/SteedOS_Chat_1.1.0.apk
-zipalign -v 4 dist/SteedOS_Chat_signed.apk dist/SteedOS_Chat_1.1.0.apk
+rm dist/SteedOS_Chat_1.1.2.apk
+zipalign -v 4 dist/SteedOS_Chat_signed.apk dist/SteedOS_Chat_1.1.2.apk
