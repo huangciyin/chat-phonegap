@@ -31,6 +31,10 @@ cordova plugin add org.apache.cordova.statusbar
 
 cordova plugin add org.apache.cordova.splashscreen
 
+cordova plugin add org.apache.cordova.file
+
+cordova plugin add org.apache.cordova.geolocation
+
 brew update
 
 brew install ant
