@@ -1,1 +1,1 @@
- : /Users/hongyu/GitHub/chat-phonegap/platforms/android/CordovaLib/ant-build/AndroidManifest.xml \
+ : /Users/yinlianghui/GitHub/chat-phonegap/platforms/android/CordovaLib/ant-build/AndroidManifest.xml \

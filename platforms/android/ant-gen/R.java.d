@@ -1,9 +1,22 @@
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/ant-gen/com/steedos/chat/R.java \
- : /Users/hongyu/GitHub/chat-phonegap/platforms/android/res/drawable/icon.png \
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/res/drawable-hdpi/icon.png \
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/res/drawable-ldpi/icon.png \
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/res/drawable-mdpi/icon.png \
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/res/drawable-xhdpi/icon.png \
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/res/values/strings.xml \
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/res/xml/config.xml \
-/Users/hongyu/GitHub/chat-phonegap/platforms/android/ant-build/AndroidManifest.xml \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-gen/com/steedos/chat/R.java \
+ : /Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-hdpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-hdpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-ldpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-ldpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-mdpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-mdpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-xhdpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/drawable-xhdpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/values/strings.xml \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/res/xml/config.xml \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-hdpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-hdpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-ldpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-ldpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-mdpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-mdpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-xhdpi/icon.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/res/drawable-xhdpi/screen.9.png \
+/Users/yinlianghui/github/chat-phonegap/platforms/android/ant-build/AndroidManifest.xml \
