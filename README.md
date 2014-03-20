@@ -53,10 +53,18 @@ cordova platform remove android
 
 cordova platform add android
 
-打开目录 platforms/android/AndroidManifest.xml，修改manifest的属性"android:versionCode",例如， 如果之前的版本名是1.4.0，新版本名就应该加0.1变成1.5.0，应该修改成[android:versionCode="150"]
+cp -p www/res/android/drawable/icon.png platforms/android/res/drawable/icon.png
+cp -p www/res/android/drawable/screen.9.png platforms/android/res/drawable/screen.9.png
+cp -p www/res/android/drawable-hdpi/icon.png platforms/android/res/drawable-hdpi/icon.png
+cp -p www/res/android/drawable-hdpi/screen.9.png platforms/android/res/drawable-hdpi/screen.9.png
+cp -p www/res/android/drawable-ldpi/icon.png platforms/android/res/drawable-ldpi/icon.png
+cp -p www/res/android/drawable-ldpi/screen.9.png platforms/android/res/drawable-ldpi/screen.9.png
+cp -p www/res/android/drawable-mdpi/icon.png platforms/android/res/drawable-mdpi/icon.png
+cp -p www/res/android/drawable-mdpi/screen.9.png platforms/android/res/drawable-mdpi/screen.9.png
+cp -p www/res/android/drawable-xhdpi/icon.png platforms/android/res/drawable-xhdpi/icon.png
+cp -p www/res/android/drawable-xhdpi/screen.9.png platforms/android/res/drawable-xhdpi/screen.9.png
 
-把app的名称为icon.png及screen.9.png(九宫图)图片copy到目录platforms/android/res/drawable-*/中
-把app的icon.png及screen.9.png图片copy到目录platforms/android/res/drawable-*/中
+打开目录 platforms/android/AndroidManifest.xml，修改manifest的属性"android:versionCode",例如， 如果之前的版本名是1.4.0，新版本名就应该加0.1变成1.5.0，应该修改成[android:versionCode="150"]
 
 cordova build android --release
 
